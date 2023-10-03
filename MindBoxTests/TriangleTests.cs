@@ -49,5 +49,16 @@ namespace MindBoxTests
 
             Assert.AreEqual(true, triangle.IsRectangular);
         }
+
+        /// <summary>
+        /// Проверка на не прямоугольность треугольника
+        /// </summary>
+        [TestMethod]
+        public void GetIsNotRectangular()
+        {
+            var triangle = new Triangle(6, 7, 10);
+
+            Assert.AreEqual(false, triangle.IsRectangular);
+        }
     }
 }
