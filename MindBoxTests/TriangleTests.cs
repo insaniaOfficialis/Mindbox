@@ -33,7 +33,7 @@ namespace MindBoxTests
         /// Проверка исключения на корректность треугольника
         /// </summary>
         [TestMethod]
-        [ExpectedException(typeof(Exception), "У треугольника не может быть сторон меньше или равных нулю")]
+        [ExpectedException(typeof(Exception), "Данная фигура не является треугольником")]
         public void IncorrectTriangle()
         {
             Figure triangle = new Triangle(1.3, 3.4, 5.1);
