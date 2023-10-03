@@ -7,7 +7,7 @@
         /// Проверка площади
         /// </summary>
         [TestMethod]
-        public void GetSquare()
+        public void GetArea()
         {
             Figure figure = new Circle(2.3);
             var result = figure.GetArea();

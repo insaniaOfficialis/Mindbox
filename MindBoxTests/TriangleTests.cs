@@ -10,7 +10,7 @@ namespace MindBoxTests
         /// Проверка площади
         /// </summary>
         [TestMethod]
-        public void GetSquare()
+        public void GetArea()
         {
             Figure figure = new Triangle(2.3, 3.4, 4.1);
             var result = figure.GetArea();
